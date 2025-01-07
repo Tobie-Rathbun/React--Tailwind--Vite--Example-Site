@@ -1,0 +1,3 @@
+[build]
+  command = "vite build" # Replace with your actual build command
+  publish = "dist"          # Update to the folder your build outputs
