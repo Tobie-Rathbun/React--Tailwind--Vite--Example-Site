@@ -62,7 +62,7 @@ const Navbar = () => {
           </p>
           
         </Link>
-        <p className="text-red-500">Text</p>
+
         <ul className='list-none 
           hidden 
           sm:flex 
