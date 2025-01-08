@@ -26,17 +26,15 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav
-      className={`${styles.paddingX} 
-        w-full 
-        flex 
-        items-center 
-        py-5 
-        fixed 
-        top-0 
-        z-20 
-        ${scrolled ? "bg-primary" : "bg-transparent"}`
-      }
+    <nav className={`${styles.paddingX} 
+      w-full 
+      flex 
+      items-center 
+      py-5 
+      fixed 
+      top-0 
+      z-20 
+      ${scrolled ? "bg-primary" : "bg-transparent"}`}
     >
       <div className='w-full 
         flex 
@@ -62,8 +60,9 @@ const Navbar = () => {
             Tobie &nbsp;
             <span className='sm:block hidden'> | Full-stack JavaScript</span>
           </p>
+          
         </Link>
-
+        <p className="text-red-500">Text</p>
         <ul className='list-none 
           hidden 
           sm:flex 
