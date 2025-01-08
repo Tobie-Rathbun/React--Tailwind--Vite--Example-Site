@@ -27,9 +27,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${
-        styles.paddingX
-      } 
+      className={`${styles.paddingX} 
         w-full 
         flex 
         items-center 
@@ -37,14 +35,10 @@ const Navbar = () => {
         fixed 
         top-0 
         z-20 
-        ${
-          scrolled ? "bg-primary" : "bg-transparent"
-        }
-        `
+        ${scrolled ? "bg-primary" : "bg-transparent"}`
       }
     >
-      <div className='
-        w-full 
+      <div className='w-full 
         flex 
         justify-between 
         items-center 
@@ -54,8 +48,7 @@ const Navbar = () => {
       >
         <Link
           to='/'
-          className='
-            flex 
+          className='flex 
             items-center 
             gap-2
             '
@@ -71,8 +64,7 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className='
-          list-none 
+        <ul className='list-none 
           hidden 
           sm:flex 
           flex-row 
@@ -92,8 +84,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className='
-          sm:hidden 
+        <div className='sm:hidden 
           flex 
           flex-1 
           justify-end 
@@ -111,10 +102,7 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           />
 
-          <div
-            className={`${
-              !toggle ? "hidden" : "flex"
-            } 
+          <div className={`${!toggle ? "hidden" : "flex"} 
               p-6 
               black-gradient 
               absolute 
@@ -128,8 +116,7 @@ const Navbar = () => {
               `
             }
           >
-            <ul className='
-              list-none 
+            <ul className='list-none 
               flex 
               justify-end 
               items-start 
@@ -141,8 +128,7 @@ const Navbar = () => {
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
-                  className={`
-                    font-poppins 
+                  className={`font-poppins 
                     font-medium 
                     cursor-pointer 
                     text-[16px] ${
