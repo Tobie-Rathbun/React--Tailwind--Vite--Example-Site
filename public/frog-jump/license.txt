@@ -1,0 +1,11 @@
+Model Information:
+* title:	Frog Jump
+* source:	https://sketchfab.com/3d-models/frog-jump-a3e1dfd0a6134060a0e23d5772edb42f
+* author:	Rukh3D (https://sketchfab.com/rukh3d)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Frog Jump" (https://sketchfab.com/3d-models/frog-jump-a3e1dfd0a6134060a0e23d5772edb42f) by Rukh3D (https://sketchfab.com/rukh3d) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

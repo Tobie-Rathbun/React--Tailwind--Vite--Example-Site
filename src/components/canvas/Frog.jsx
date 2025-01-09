@@ -4,15 +4,15 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const Earth = () => {
-  const earth = useGLTF("./planet/scene.gltf");
+const Frog = () => {
+  const frog = useGLTF("./frog-jump/scene.gltf");
 
   return (
-    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
+    <primitive object={frog.scene} scale={0.75} position-y={0} rotation-y={0} />
   );
 };
 
-const EarthCanvas = () => {
+const FrogCanvas = () => {
   return (
     <Canvas
       shadows
@@ -23,7 +23,7 @@ const EarthCanvas = () => {
         fov: 45,
         near: 0.1,
         far: 200,
-        position: [-4, 3, 6],
+        position: [0, 3, 6],
       }}
     >
       <Suspense fallback={<CanvasLoader />}>
@@ -33,7 +33,15 @@ const EarthCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Earth />
+
+        <ambientLight intensity={0.5} />
+        <pointLight 
+          position={[0, 0, 0]} 
+          intensity={1} 
+          distance={10} 
+        />
+
+        <Frog />
 
         <Preload all />
       </Suspense>
@@ -41,4 +49,4 @@ const EarthCanvas = () => {
   );
 };
 
-export default EarthCanvas;
+export default FrogCanvas;
