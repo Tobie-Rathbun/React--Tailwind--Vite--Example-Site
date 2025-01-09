@@ -13,7 +13,6 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
     meta,
     starbucks,
@@ -42,19 +41,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Front End and UX Design",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Component Development",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Back End Functionality",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "3D Animation",
       icon: creator,
     },
   ];
@@ -105,10 +104,6 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
@@ -116,55 +111,52 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Test Associate II",
+      company_name: "ManpowerGroup",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2022 - Sept 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Agile and Scrum environment using Azure DevOps",
+        "Writing bug reports, providing logs and media, knowledge of applications",
+        "Script writing in batch or Python to assist in tasks or moving files",
+        "Modifying an existing GUI and custom tool in C#",
+        "Querying databases, automating reminders and links, automating emails",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Full Stack Developer Contract",
+      company_name: "Garner Resources",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Oct 2021 - Dec 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Locally testing server with XAMPP on Windows and on Linux",
+        "Updating PHP version, and modifying code to account for deprecated logic",
+        "Solution deployment to Amazon Web Services (AWS)",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Full Stack Develope",
+      company_name: "AttuneOne",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Mar 2020 - Oct 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Locally testing server with XAMPP on Windows and on Linux",
+        "Updating PHP version, and modifying code to account for deprecated logic",
+        "Solution deployment to Amazon Web Services (AWS)",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Graphic & Web Designer",
+      company_name: "ASU & Freelance",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2017 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designing front end of websites for memorable user experience and interactivity",
+        "Designing & delivering graphic design for both print and web, managing clients",
       ],
     },
   ];
