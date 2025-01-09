@@ -82,11 +82,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          This portfolio site we are on now was built using React with Vite, Tailwind, and Three.js, but the following projects were built in Next.js with Babylon.js to handle 3D model imports and animations. I have a preference towards Next.js and Babylon.js, but I am adaptable with my toolsets and can reach a similar solution with many different approaches.
         </motion.p>
       </div>
 
