@@ -18,9 +18,9 @@ import {
     manpower,
     flutter,
     illustrator,
-    carrent,
-    jobit,
-    tripguide,
+    rpscard,
+    texasholdem,
+    pokerfrogs,
     threejs,
   } from "../assets";
   
@@ -190,58 +190,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Rock Paper Scissors",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The Rock, Paper, Scissors simulator runs through many iterations of gameplay where the user decision is randomly selected and the AI computer makes educated guesses based on past outcomes. The computer balances turn decisions between its two outcome tracking methods: counterfactual regret minimization and the Markov chain, which is a matrix of past moves graphed by their previous move. Different user move patterns can be selected with a dropdown.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
@@ -249,8 +207,50 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: rpscard,
+      source_code_link: "https://github.com/Tobie-Rathbun/React-Portfolio--Next.js-/blob/master/src/app/rockpaperscissors/page.tsx",
+    },
+    {
+      name: "Texas Hold Em",
+      description:
+        "The 2D Poker Game uses logic written in React JSX with a decision matrix and counterfactual regret minimization implmementation that is based on concepts I explored in the Rock, Paper, Scissors simulator. The AI will make educated guesses for turns and over many iterations will learn to play better hands. The win likelihood percentage is calculated from an external library titled pokersolver with credit and thanks to goldfire.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: texasholdem,
+      source_code_link: "https://github.com/Tobie-Rathbun/React-Portfolio--Next.js-/blob/master/src/app/texasholdem/page.tsx",
+    },
+    {
+      name: "Poker Frogs",
+      description:
+        "The 3D Poker Game showcases draggable panel components that are imported and update with live data from the cards dealt within the game logic that runs alongside the Babylon 3D scene in the page.tsx that contains the code for the webpage. I drew graphics for the front and back of a whole deck of cards in Adobe Illustrator and then applied the images as a UV Texture over the 3D objects in React using the Babylon.js library.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "babylonjs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "adobeillustrator",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pokerfrogs,
+      source_code_link: "https://github.com/Tobie-Rathbun/React-Portfolio--Next.js-/blob/master/src/app/pokerfrogs/page.tsx",
     },
   ];
   

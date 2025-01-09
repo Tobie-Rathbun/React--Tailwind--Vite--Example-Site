@@ -26,9 +26,9 @@ import php from "./company/php.png";
 import illustrator from "./company/illustrator.png";
 
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import rpscard from "./rpscard.png";
+import texasholdem from "./texasholdem.png";
+import pokerfrogs from "./pokerfrogs.png";
 
 export {
   logo,
@@ -55,7 +55,7 @@ export {
   php,
   flutter,
   illustrator,
-  carrent,
-  jobit,
-  tripguide,
+  rpscard,
+  texasholdem,
+  pokerfrogs,
 };
