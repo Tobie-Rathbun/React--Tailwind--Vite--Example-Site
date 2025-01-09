@@ -38,16 +38,16 @@ const About = () => (
       variants={textVariant()}
     >
       <p className={styles.sectionSubText}
-      >Introduction</p>
+      >Specialization</p>
       <h2 className={styles.sectionHeadText}
-      >Overview</h2>
+      >Skills Overview</h2>
     </motion.div>
 
     <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Software bio
+        I have been writing code for web applications for around 15 years, and I want to take my React projects to the professional level. Here are some areas that I have worked in ordered from most to least confident.
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>

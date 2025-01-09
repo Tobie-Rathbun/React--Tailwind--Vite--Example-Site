@@ -11,13 +11,13 @@ const Hero = () => {
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           {/* Ball on home screen */}
-          <div className='w-5 h-5 rounded-full bg-[#5b0a31]' />
+          <div className='w-5 h-5 rounded-full bg-[#ad4276]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#5b0a31]'>Tobie</span>
+            Hi, I'm <span className='text-[#ad4276]'>Tobie</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop JavaScript components <br className='sm:block hidden' />
