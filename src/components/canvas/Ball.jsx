@@ -52,7 +52,7 @@ const BallCanvas = ({ icon }) => {
     useEffect(() => {
       if (!isInteracting) {
         // Trigger reset after 2 seconds of inactivity
-        const timer = setTimeout(() => setResetting(true), 2000);
+        const timer = setTimeout(() => setResetting(true), 0);
         return () => clearTimeout(timer); // Cleanup timer
       }
     }, [isInteracting]);
