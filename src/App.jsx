@@ -15,10 +15,11 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedback />
+        
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
+          <Feedback />
         </div>
       </div>
     </BrowserRouter>
