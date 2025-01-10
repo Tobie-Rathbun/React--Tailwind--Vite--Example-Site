@@ -39,19 +39,18 @@ const BallCanvas = ({ icon }) => {
     const [isInteracting, setIsInteracting] = useState(false);
 
     const initialPosition = useRef(camera.position.clone());
-    const initialTarget = useRef(new THREE.Vector3(0, 0, 0)); // Default target
+    const initialTarget = useRef(new THREE.Vector3(0, 0, 0)); 
 
     const handleOrbitControlsStart = () => {
-      setIsInteracting(true); // Stop resetting during interaction
+      setIsInteracting(true); 
     };
 
     const handleOrbitControlsEnd = () => {
-      setIsInteracting(false); // Allow reset logic to proceed after interaction ends
+      setIsInteracting(false); 
     };
 
     useEffect(() => {
       if (!isInteracting) {
-        // Trigger reset after 2 seconds of inactivity
         const timer = setTimeout(() => setResetting(true), 0);
         return () => clearTimeout(timer); // Cleanup timer
       }
