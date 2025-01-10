@@ -78,9 +78,18 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={nav.id === 'games' ? 'https://tobie-developer.com' : `#${nav.id}`}>
+              <a 
+                href={
+                  nav.id === 'resume' 
+                    ? 'https://tobie-developer.com/resume' 
+                    : nav.id === 'games' 
+                      ? 'https://tobie-developer.com' 
+                      : `#${nav.id}`
+                }
+              >
                 {nav.title}
               </a>
+
             </li>
           ))}
 
