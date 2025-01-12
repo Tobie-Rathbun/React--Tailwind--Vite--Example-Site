@@ -47,7 +47,7 @@ const About = () => (
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I have been writing code for web applications for around 15 years, and I want to take my React projects to the professional level. Here are some areas that I have worked in ordered from most to least confident.
+        Here are some areas that I have worked in ordered from most to least confident.
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>
