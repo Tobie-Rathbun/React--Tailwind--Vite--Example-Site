@@ -82,7 +82,7 @@ const Navbar = () => {
                 href={
                   nav.id === 'resume' 
                     ? 'https://tobie-developer.com/resume' 
-                    : nav.id === 'games' 
+                    : nav.id === 'projects' 
                       ? 'https://tobie-developer.com' 
                       : `#${nav.id}`
                 }
