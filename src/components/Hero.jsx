@@ -11,10 +11,10 @@ const Hero = () => {
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 z-10`}
         style={{ pointerEvents: 'none' }} // Allow interactions to pass through
       >
-        <div className='flex flex-col justify-center items-center mt-5'>
+        <div className='flex flex-col justify-center items-center mt-1.5'>
           {/* Ball on home screen */}
-          <div className='w-5 h-5 rounded-full bg-[#ad4276]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
+          <div className='w-2 h-2 bg-[#ad4276]' />
+          <div className='w-1 sm:h-50 h-40 violet-gradient' />
         </div>
 
         <div>
